@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * check_cycle - linked checker if the 
+ * check_cycle - linked checker if the
  * list contains a cycle
  * @list: linked list
  *
@@ -19,7 +19,6 @@ int check_cycle(listint_t *list)
 	{
 		if (!first_ls || !sec_ls)
 			return (0);
-
 		first_ls = first_ls->next;
 		sec_ls = sec_ls->next->next;
 		if (first_ls == sec_ls)
