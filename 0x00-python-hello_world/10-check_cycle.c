@@ -15,10 +15,8 @@ int check_cycle(listint_t *list)
 	if (!list)
 		return (0);
 
-	while (sec_ls->next)
+	while (first_ls && sec_lssec_ls->next)
 	{
-		if (!first_ls || !sec_ls)
-			return (0);
 		first_ls = first_ls->next;
 		sec_ls = sec_ls->next->next;
 		if (first_ls == sec_ls)
