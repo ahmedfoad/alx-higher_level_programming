@@ -1,3 +1,5 @@
+#!/usr/bin/node
+
 /**
  * Adds two numbers and prints the result to the console.
  * @param {number} a - The first number.
